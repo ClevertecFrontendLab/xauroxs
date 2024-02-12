@@ -26,7 +26,7 @@ export const MainPageFooter: React.FC = () => {
                 <p className={reviews}>Смотреть отзывы</p>
                 <Card
                     className={downloadsCard}
-                    headStyle={{ padding: '0px 12px' }}
+                    headStyle={{ padding: '0px' }}
                     bodyStyle={{ padding: '12px 0' }}
                     title={
                         <div className={cardTitles}>

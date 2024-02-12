@@ -34,7 +34,13 @@
     display: flex;
     flex-direction: column;
 
-    text-align: left;
+    text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+    .cardTitles {
+        text-align: left;
+    }
 }
 
 .cardTitles span:nth-child(1) {
