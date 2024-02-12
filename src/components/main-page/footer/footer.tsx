@@ -3,7 +3,6 @@ import { Layout, Grid, Card } from 'antd';
 import { AndroidFilled, AppleFilled } from '@ant-design/icons';
 
 import classes from './footer.module.css';
-import './footer.css';
 
 const { useBreakpoint } = Grid;
 

@@ -34,8 +34,6 @@ const {
     exitMobile,
 } = classes;
 
-import './sider.css';
-
 const menuItems = [
     {
         key: MenuItems.Calendar,

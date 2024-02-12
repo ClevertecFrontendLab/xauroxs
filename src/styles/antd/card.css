@@ -2,4 +2,6 @@
     overflow: inherit !important;
     white-space: inherit !important;
     text-overflow: inherit !important;
+
+    padding: 12px 24px !important;
 }

@@ -3,7 +3,6 @@ import { Layout, Grid, Typography, Card } from 'antd';
 import { CalendarTwoTone, HeartTwoTone, IdcardTwoTone } from '@ant-design/icons';
 
 import classes from './content.module.css';
-import './content.css';
 
 const { Title } = Typography;
 const { useBreakpoint } = Grid;

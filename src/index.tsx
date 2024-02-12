@@ -10,6 +10,9 @@ import { MainPage } from '@pages/main-page/main-page';
 import 'antd/dist/antd.css';
 import 'normalize.css';
 
+import '@styles/antd/card.css';
+import '@styles/antd/menu.css';
+
 const domNode = document.getElementById('root') as HTMLDivElement;
 const root = createRoot(domNode);
 
