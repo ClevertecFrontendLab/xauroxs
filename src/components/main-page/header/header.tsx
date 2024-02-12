@@ -1,7 +1,7 @@
 import React from 'react';
 import { Breadcrumb, Col, Layout, Row, Typography, Grid } from 'antd';
 
-import { Settings } from './settings';
+import { Settings } from '../settings/settings';
 
 const { Title } = Typography;
 
