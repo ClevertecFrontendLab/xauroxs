@@ -113,7 +113,7 @@ export const MainPageSider: React.FC = () => {
                 collapsedWidth={0}
                 collapsed={isCollapsed}
                 className={`${sider} ${siderMobile}`}
-                style={{ position: 'absolute' }}
+                style={{ position: 'fixed' }}
             >
                 <div className={`${logoMobile}`}>
                     <img src={LogoFull} alt='cleverfit' />
