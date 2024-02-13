@@ -4,10 +4,14 @@ import { Provider } from 'react-redux';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 
 import { store } from '@redux/configure-store';
-import { MainPage } from './pages';
 
+import { MainPage } from '@pages/main-page/main-page';
+
+import 'antd/dist/antd.css';
 import 'normalize.css';
-import './index.css';
+
+import '@styles/antd/card.css';
+import '@styles/antd/menu.css';
 
 const domNode = document.getElementById('root') as HTMLDivElement;
 const root = createRoot(domNode);

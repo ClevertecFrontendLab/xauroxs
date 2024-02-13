@@ -1,0 +1,39 @@
+.settings {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.settingsIcon {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .settingsIcon {
+        display: block;
+    }
+}
+
+.settingsIconMobile {
+    width: 32px;
+    height: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    border: 1px solid #d9d9d9;
+    border-radius: 50%;
+}
+
+.settingsText {
+    margin-left: 10px;
+
+    display: none;
+}
+
+@media screen and (min-width: 576px) {
+    .settingsText {
+        display: block;
+    }
+}

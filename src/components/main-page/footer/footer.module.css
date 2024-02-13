@@ -1,0 +1,68 @@
+.footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    gap: 24px;
+}
+
+@media screen and (min-width: 576px) {
+    .footer {
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+}
+
+.reviews {
+    margin: 0;
+
+    color: #2f54eb;
+}
+
+.downloadsCard {
+    width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+    .downloadsCard {
+        width: 240px;
+    }
+}
+
+.cardTitles {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+    .cardTitles {
+        text-align: left;
+    }
+}
+
+.cardTitles span:nth-child(1) {
+    color: #2f54eb;
+}
+
+.cardTitles span:nth-child(2) {
+    color: #8c8c8c;
+}
+
+.downloads {
+    display: flex;
+}
+
+.download {
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download span:nth-child(2) {
+    margin-left: 8px;
+}
